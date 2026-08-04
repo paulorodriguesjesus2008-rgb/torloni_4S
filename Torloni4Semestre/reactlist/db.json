@@ -1,6 +1,17 @@
 {
   "taskpoin": [
-    { "id": 1, "descricao": "Revisar HTML Semântico" },
-    { "id": 2, "descricao": "Revisar React" }
-  ]
+    {
+      "id": "1",
+      "descricao": "Revisar HTML Semântico"
+    },
+    {
+      "descricao": "Revisar React",
+      "id": "Tp0ElhVcCRs"
+    },
+    {
+      "descricao": "teste ",
+      "id": "tnksiWt6v7I"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
