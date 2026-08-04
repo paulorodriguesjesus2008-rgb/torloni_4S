@@ -1,0 +1,138 @@
+/* Mobile First */
+
+/* HEADER */
+.header-section {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  /* border: 1px solid red; */
+}
+
+/* header > h1 */
+.header-section__title {
+  padding-bottom: 10px;
+  border-bottom: 3px solid #60A771;
+
+}
+
+/* MAIN */
+.body-section {
+  width: 100%;
+  /* height: calc(100vh - 110px); */
+  padding: 20px;
+  /* border: 1px solid blue; */
+}
+
+.cad-task {
+  width: 100%;
+  height: 120px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  /* border: 1px solid red; */
+}
+
+/* input */
+.cad-task__entry {
+  width: 100%;
+  height: 40px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  color: #898787;
+}
+.cad-task__entry::placeholder {
+  color: #cecece;
+}
+
+/* button */
+.cad-task__btn-confirm {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #60A771;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid #60A771;
+}
+
+
+/* section - lista de tarefas */
+.cardlist {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 10px 0;
+  /* border: 2px solid white; */
+}
+
+.cardtask {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+  font-size: 13px;
+  width: 100%;
+  height: 70px;
+  
+  /* border: 1px solid red; */
+  border-radius: 10px;
+  background-color: #31364D;
+}
+
+
+/* caixa com os 2 ícones */
+.cardtask__icon-box {
+  width: 80px;
+  height: 100%;
+  /* border: 1px solid white; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* caixa do ícone */
+.cardlist__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+}
+
+/* primeira div - pseudo-elemento CSS */
+.cardlist__icon:first-of-type {
+  border: 1px solid #9BB8ED;
+}
+
+/* segunda div - pseudo-elemento CSS */
+.cardlist__icon:last-of-type {
+  border: 1px solid #D46E75;
+}
+
+
+
+/* FOOTER */
+.footer-section {
+  width: 100%;
+  height: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-section__right-text {
+  font-size: 12px;
+}

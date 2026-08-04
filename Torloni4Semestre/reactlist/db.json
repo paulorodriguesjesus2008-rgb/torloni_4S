@@ -1,0 +1,6 @@
+{
+  "taskpoin": [
+    { "id": 1, "descricao": "Revisar HTML Semântico" },
+    { "id": 2, "descricao": "Revisar React" }
+  ]
+}
